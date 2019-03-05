@@ -1,7 +1,12 @@
-function calByAA(totalPrice, totalPeoNum) { //AA制计算方式
+var ordCal = document.calculator;
+
+function calByAA() { //AA制计算方式
     let avgPrice;
+    let totalPeoNum = ordCal.totalPeoNum;
+    let totalPrice = ordCal.totalPrice;
     avgPrice = totalPrice / totalPeoNum;
-    return avgPrice;
+    document.write(avgPrice);
+    //return avgPrice;
 }
 
 function calByScale(params) { //按照比例分摊的计算方式
