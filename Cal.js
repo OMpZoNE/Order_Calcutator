@@ -1,4 +1,4 @@
-function calByAA(totalPrice, totalPrice) { //AA制计算方式
+function calByAA(totalPrice, totalPeoNum) { //AA制计算方式
     let avgPrice;
     avgPrice = totalPrice / totalPeoNum;
     return avgPrice;
