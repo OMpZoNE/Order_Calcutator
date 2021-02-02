@@ -24,8 +24,10 @@ function calculatingMethod(userChoice, calMethod) { //计算方式：AA制或是
 
 class dish {
     constructor () {
-        this.dishName = this.dishName;
+        this.dishName = "菜品";
         this.originalPrice = null;
         this.discountedPrice = null;
     }
 }
+
+//根据用户输入的菜品数量来生成dish对象，显示”菜品名 原价 折后价“三项，菜品名和原价由客户输入，折后价由系统计算得出
