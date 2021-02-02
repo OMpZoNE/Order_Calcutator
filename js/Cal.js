@@ -21,3 +21,11 @@ function calculatingMethod(userChoice, calMethod) { //计算方式：AA制或是
         calByScale(); //调用比例分摊制计算方法
     }
 }
+
+class dish {
+    constructor () {
+        this.dishName = this.dishName;
+        this.originalPrice = null;
+        this.discountedPrice = null;
+    }
+}
